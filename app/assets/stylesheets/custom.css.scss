@@ -4,7 +4,7 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-body {
+body, .btn {
     
 //Gradient from: http://uigradients.com/#
 background: #283048; /* fallback for old browsers */
@@ -13,7 +13,7 @@ background: linear-gradient(to left, #283048 , #859398); /* W3C, IE 10+/ Edge, F
         
 }
 
-.jumbotron {
+.jumbotron, .well {
     
 
 background: #8E0E00; /* fallback for old browsers */
@@ -24,4 +24,8 @@ background: linear-gradient(to left, #8E0E00 , #1F1C18); /* W3C, IE 10+/ Edge, F
 }
 .navbar {
     height: 60px;
+}
+.btn {
+  font-weight: bold;
+  font-size: 120%;
 }
